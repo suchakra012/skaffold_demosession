@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-    name: hello-world
+    name: hello-whale
 spec:
     selector:
       matchLabels:
-        app: hello-world
+        app: hello-whale
     template:
       metadata:
         labels:
-            app: hello-world
+            app: hello-whale
       spec:
         containers:
-        - name: hello-world
+        - name: hello-whale
           image: suman/hellowhale
